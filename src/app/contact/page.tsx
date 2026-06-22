@@ -39,11 +39,8 @@ export default function ContactPage() {
                       Office Address
                     </div>
                     <div className="mt-1 text-sm leading-6 text-slate-600">
-                      Bangalore, Karnataka
-                      <span className="text-slate-400">
-                        {" "}
-                        (Area placeholder)
-                      </span>
+                      ITI Patalappa Building, Puttanahalli,
+                      Bengaluru, Karnataka 560064
                     </div>
                   </div>
                 </div>
@@ -55,10 +52,7 @@ export default function ContactPage() {
                   <div>
                     <div className="text-sm font-semibold text-navy">Phone</div>
                     <div className="mt-1 text-sm leading-6 text-slate-600">
-                      +91{" "}
-                      <span className="text-slate-400">
-                        (Phone placeholder)
-                      </span>
+                      +91 80886 78875
                     </div>
                   </div>
                 </div>
@@ -70,7 +64,7 @@ export default function ContactPage() {
                   <div>
                     <div className="text-sm font-semibold text-navy">Email</div>
                     <div className="mt-1 text-sm leading-6 text-slate-600">
-                      info@leadeduservices.com
+                      contact@leadeduservices.in
                     </div>
                   </div>
                 </div>
@@ -176,15 +170,13 @@ export default function ContactPage() {
                 Visit Our Bangalore Office
               </div>
               <div className="mt-1 text-sm text-slate-600">
-                Google Maps placeholder (we’ll embed the map next).
+                Visit us at our Bengaluru office — we’re happy to meet in person.
               </div>
             </div>
             <div className="hidden h-10 w-10 items-center justify-center rounded-lg bg-white text-navy shadow-sm sm:inline-flex">
               <MapPin className="h-5 w-5 text-gold" />
             </div>
           </div>
-
-          <div className="mt-5 h-56 w-full rounded-xl border border-dashed border-slate-300 bg-slate-200/60" />
         </div>
       </section>
     </div>

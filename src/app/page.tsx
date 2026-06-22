@@ -4,7 +4,6 @@ import {
   BadgeCheck,
   CalendarCheck2,
   LineChart,
-  Building2,
 } from "lucide-react";
 import DiscoveryHub from "@/components/DiscoveryHub";
 import CourseCatalog from "@/components/CourseCatalog";
@@ -166,61 +165,11 @@ export default function Home() {
               </Link>
             </div>
 
-            <p className="mt-4 text-xs text-white/70">
-              Tip: Replace the contact details in the footer with your official
-              number and email.
-            </p>
           </div>
         </div>
       </section>
 
-      <section className="mx-auto max-w-6xl px-4 py-14 sm:py-16">
-        <div className="flex flex-col gap-3">
-          <h2 className="text-balance text-2xl font-semibold tracking-tight text-navy sm:text-3xl">
-            Our Network of Top Institutions in Karnataka
-          </h2>
-          <p className="max-w-3xl text-pretty text-base leading-7 text-slate-600">
-            4 years of building strong institutional tie-ups to ensure your seat
-            in the best colleges.
-          </p>
-        </div>
-
-        <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {[
-            "Top Engineering Colleges",
-            "Premier Medical Institutes",
-            "Leading Management Schools",
-            "Trusted Pharmacy Colleges",
-            "Reputed Allied Health Programs",
-            "Career-Focused Universities",
-          ].map((name) => (
-            <div
-              key={name}
-              className="group rounded-2xl border border-slate-200 bg-white p-6 transition hover:border-[#D4AF37]/50 hover:shadow-sm"
-            >
-              <div className="flex items-center gap-3">
-                <div className="inline-flex h-11 w-11 items-center justify-center rounded-xl bg-slate-100 text-slate-500 transition group-hover:bg-[#D4AF37]/15 group-hover:text-navy">
-                  <Building2 className="h-5 w-5" />
-                </div>
-                <div className="min-w-0">
-                  <div className="text-sm font-semibold text-slate-500 transition group-hover:text-navy">
-                    {name}
-                  </div>
-                  <div className="mt-1 text-xs text-slate-400">
-                    Partner logo placeholder
-                  </div>
-                </div>
-              </div>
-
-              <div className="mt-5 h-12 w-full rounded-xl bg-slate-100 transition group-hover:bg-white">
-                <div className="flex h-full items-center justify-center rounded-xl border border-slate-200 bg-white text-xs font-semibold tracking-wide text-slate-400 grayscale transition group-hover:border-[#D4AF37]/40 group-hover:text-navy group-hover:grayscale-0">
-                  LOGO
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
+      {/* Partner institutions section hidden until real partner logos/content are ready. */}
 
       <section className="mx-auto max-w-6xl px-4 pb-14 sm:pb-16">
         <div className="rounded-2xl bg-[#002147] p-8 text-white sm:p-10">
